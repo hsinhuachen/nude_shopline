@@ -10,7 +10,7 @@
 ### 備份 HTML
 下載附件menu.html、footer.html並存放於電腦中
 
-### 編輯 HTML
+### 編輯 Menu html
 #### 尋找段落
 Code:
 
@@ -21,11 +21,26 @@ Code:
 		<li><a href="https://www.facebook.com/essentials4wardrob/" target="_blank">活動專區</a></li>
 	</ul>
 
-#### 修改樣式
+#### 樣式說明
 Code:
 
 	<li><a href="網站連結">連結名稱</a></li>
 
+### 編輯 footer html
+#### 尋找段落
+Code:
+
+	<div class="col-md-3">
+        <a class="footerNavLink" href="/pages/base">經典款式</a>
+        <a class="footerNavLink" href="/pages/fashion">時尚款式</a>
+        <a class="footerNavLink" href="/pages/romance">夢幻款式</a>
+        <a class="footerNavLink" href="/pages/shape">修身款式</a>
+    </div>
+
+#### 樣式說明
+Code:
+
+	<a class="footerNavLink" href="網站連結">連結名稱</a>
 
 ***
 

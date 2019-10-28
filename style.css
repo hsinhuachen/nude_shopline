@@ -3404,3 +3404,14 @@ html[lang="en"] table.custom img{
     margin-bottom: 10px;
   }
 }
+
+.amazon-wishlist-block{
+  clear: both;
+  display: block;
+}
+
+@media (min-width: 769px){
+  div[ng-controller=ProductsShowController] .col-md-6:nth-child(2) div.Wishlist-addItem-block{
+    width: 100%;
+  }
+}

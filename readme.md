@@ -6,7 +6,7 @@
 * [手機版主選單分類教學](#手機版主選單分類教學)
 
 ## 桌機版主選單教學
-1. 更改HTML > 使用文字檔開啟 menu.html
+1. 更改HTML > 使用文字檔開啟 [menu.html](/blob/master/html/menu.html)
 
 - 尋找段落<br />
 Code:

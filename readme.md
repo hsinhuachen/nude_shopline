@@ -9,26 +9,26 @@
 1. 更改HTML > 開啟 [menu.html](/html/menu.html)
 
 - 修改段落
-
-		<ul class="secMenu">
-			<li><a href="/products">產品全品項</a></li>
-			<li><a href="/categories/%E6%96%B0%E5%93%81%E6%8E%A8%E8%96%A6">新品推薦</a></li>
-			<li><a href="/categories/%E5%85%A7%E8%A1%A3">內衣</a></li>
-			<li><a href="/categories/%E5%85%A7%E8%A4%B2">內褲</a></li>
-			<li><a href="/categories/%E5%AE%B6%E5%B1%85%E6%9C%8D">家居服</a></li>
-		</ul>
-		<hr />
-		<ul class="secMenu">
-			<li><a href="/pages/size">線上量身</a></li>
-			<li><a href="/pages/reservation">預約服務</a></li>
-			<li><a href="/about">關於NUDE</a></li>
-			<li><a href="https://www.facebook.com/essentials4wardrob/" target="_blank">活動專區</a></li>
-		</ul>
-
+```C#
+<ul class="secMenu">
+	<li><a href="/products">產品全品項</a></li>
+	<li><a href="/categories/%E6%96%B0%E5%93%81%E6%8E%A8%E8%96%A6">新品推薦</a></li>
+	<li><a href="/categories/%E5%85%A7%E8%A1%A3">內衣</a></li>
+	<li><a href="/categories/%E5%85%A7%E8%A4%B2">內褲</a></li>
+	<li><a href="/categories/%E5%AE%B6%E5%B1%85%E6%9C%8D">家居服</a></li>
+</ul>
+<hr />
+<ul class="secMenu">
+	<li><a href="/pages/size">線上量身</a></li>
+	<li><a href="/pages/reservation">預約服務</a></li>
+	<li><a href="/about">關於NUDE</a></li>
+	<li><a href="https://www.facebook.com/essentials4wardrob/" target="_blank">活動專區</a></li>
+</ul>
+```
 - 樣式說明
-
-		<li><a href="網站連結">連結名稱</a></li>
-
+```C#
+<li><a href="網站連結">連結名稱</a></li>
+```
 
 2. 進入 SHOPLINE 後台 > 目錄分頁管理 > 網店目錄管理 > 商店頁尾 編輯
 ![image](https://github.com/hsinhuachen/nude_shopline/blob/master/teach/01.png)<br /><br />

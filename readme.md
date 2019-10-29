@@ -11,7 +11,7 @@
 下載附件menu.html、footer.html並存放於電腦中
 
 ### 編輯 Menu html
-#### 尋找段落
+尋找段落<br />
 Code:
 
 	<ul class="secMenu">
@@ -21,7 +21,7 @@ Code:
 		<li><a href="https://www.facebook.com/essentials4wardrob/" target="_blank">活動專區</a></li>
 	</ul>
 
-#### 樣式說明
+樣式說明<br />
 Code:
 
 	<li><a href="網站連結">連結名稱</a></li>

@@ -36,7 +36,8 @@ Code:
 
 ## 桌機版/手機版footer教學
 1. 更改HTML > 開啟 [footer.html](/html/footer.html)
--　尋找段落
+
+- 尋找段落
 Code:
 
 		<div class="col-md-3">
@@ -46,7 +47,7 @@ Code:
 	        <a class="footerNavLink" href="/pages/shape">修身款式</a>
 	    </div>
 
--　樣式說明
+- 樣式說明
 Code:
 
 		<a class="footerNavLink" href="網站連結">連結名稱</a>

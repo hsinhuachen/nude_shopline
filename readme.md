@@ -44,36 +44,37 @@
 1. 更改HTML > 開啟 [footer.html](/html/footer.html)
 
 - 修改段落
-
-		<div class="col-md-3">
-            <a class="footerNavLink" href="/pages/base">經典款式</a>
-            <a class="footerNavLink" href="/pages/fashion">時尚款式</a>
-            <a class="footerNavLink" href="/pages/romance">夢幻款式</a>
-            <a class="footerNavLink" href="/pages/shape">修身款式</a>
-        </div>
-        <div class="col-md-3">
-            <a class="footerNavLink" href="/products">全品項</a>
-            <a class="footerNavLink" href="/categories/%E5%85%A7%E8%A1%A3">內衣</a>
-            <a class="footerNavLink" href="/categories/%E5%85%A7%E8%A4%B2">內褲</a>
-            <a href="/categories/%E5%AE%B6%E5%B1%85%E6%9C%8D">家居服</a>
-        </div>
-        <div class="col-md-3">
-            <a class="footerNavLink" href="/users/sign_in">會員專區</a>
-            <a class="footerNavLink" href="/about/policy">訂購須知</a>
-            <a class="footerNavLink" href="/pages/會員權益">會員權益</a>
-            <a class="footerNavLink" href="/about/terms">隱私權政策</a>
-            <a href="https://www.facebook.com/essentials4wardrob/" target="_blank">活動專區</a>
-        </div>
-        <div class="col-md-3">
-            <a class="footerNavLink" href="/about">關於NUDE</a>
-            <a class="footerNavLink" href="/pages/contact">客服資訊</a>
-            <a class="footerNavLink" href="/pages/size">線上量身</a>
-            <a class="footerNavLink" href="/pages/reservation">預約服務</a>
-        </div>
-
+```C#
+<div class="col-md-3">
+    <a class="footerNavLink" href="/pages/base">經典款式</a>
+    <a class="footerNavLink" href="/pages/fashion">時尚款式</a>
+    <a class="footerNavLink" href="/pages/romance">夢幻款式</a>
+    <a class="footerNavLink" href="/pages/shape">修身款式</a>
+</div>
+<div class="col-md-3">
+    <a class="footerNavLink" href="/products">全品項</a>
+    <a class="footerNavLink" href="/categories/%E5%85%A7%E8%A1%A3">內衣</a>
+    <a class="footerNavLink" href="/categories/%E5%85%A7%E8%A4%B2">內褲</a>
+    <a href="/categories/%E5%AE%B6%E5%B1%85%E6%9C%8D">家居服</a>
+</div>
+<div class="col-md-3">
+    <a class="footerNavLink" href="/users/sign_in">會員專區</a>
+    <a class="footerNavLink" href="/about/policy">訂購須知</a>
+    <a class="footerNavLink" href="/pages/會員權益">會員權益</a>
+    <a class="footerNavLink" href="/about/terms">隱私權政策</a>
+    <a href="https://www.facebook.com/essentials4wardrob/" target="_blank">活動專區</a>
+</div>
+<div class="col-md-3">
+    <a class="footerNavLink" href="/about">關於NUDE</a>
+    <a class="footerNavLink" href="/pages/contact">客服資訊</a>
+    <a class="footerNavLink" href="/pages/size">線上量身</a>
+    <a class="footerNavLink" href="/pages/reservation">預約服務</a>
+</div>
+```
 - 樣式說明
-
-		<a class="footerNavLink" href="網站連結">連結名稱</a>
+```C#
+<a class="footerNavLink" href="網站連結">連結名稱</a>
+```
 
 2. 進入SHOPLINE 後台 > 目錄分頁管理 > 網店目錄管理 > 商店頁尾 編輯
 3. 點選最下面區塊 > View HTML

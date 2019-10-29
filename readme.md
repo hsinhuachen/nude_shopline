@@ -1,7 +1,7 @@
 # NUDE 網站教學
 
 * [桌機版主選單教學](#桌機版主選單教學)
-* [桌機版 / 手機版 footer 教學](#桌機版&手機版footer教學)
+* [桌機版 / 手機版 footer 教學](#桌機版及手機版footer教學)
 * [手機版主選單目錄教學](#手機版主選單目錄教學)
 * [手機版主選單分類教學](#手機版主選單分類教學)
 
@@ -30,17 +30,17 @@
 		<li><a href="網站連結">連結名稱</a></li>
 
 
-
 2. 進入 SHOPLINE 後台 > 目錄分頁管理 > 網店目錄管理 > 商店頁尾 編輯
 ![image](https://github.com/hsinhuachen/nude_shopline/blob/master/teach/01.png)<br /><br />
 3. 點選第一個區塊 > View HTML 
 ![image](https://github.com/hsinhuachen/nude_shopline/blob/master/teach/02.png)<br /><br />
 ![image](https://github.com/hsinhuachen/nude_shopline/blob/master/teach/03.png)<br /><br />
-4. 貼上更改後的 HTML後確定 > 保存
+4. 貼上編輯後的原始碼 > 確定
+5. 保存
 
 ***
 
-## 桌機版&手機版footer教學
+## 桌機版及手機版footer教學
 1. 更改HTML > 開啟 [footer.html](/html/footer.html)
 
 - 修改段落
@@ -80,7 +80,8 @@
 ![image](https://github.com/hsinhuachen/nude_shopline/blob/master/teach/footer01.png)<br /><br />
 ![image](https://github.com/hsinhuachen/nude_shopline/blob/master/teach/footer02.png)<br /><br />
 ![image](https://github.com/hsinhuachen/nude_shopline/blob/master/teach/footer03.png)
-![image](https://github.com/hsinhuachen/nude_shopline/blob/master/teach/footer03.png)
+4. 貼上編輯後的原始碼 > 確定
+5. 保存
 
 ***
 

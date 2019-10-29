@@ -1,7 +1,7 @@
 # NUDE 網站教學
 
 * [桌機版主選單教學](#桌機版主選單教學)
-* [桌機版 / 手機版 footer 教學](#桌機版/手機版footer教學)
+* [桌機版 / 手機版 footer 教學](#桌機版&手機版footer教學)
 * [手機版主選單目錄教學](#手機版主選單目錄教學)
 * [手機版主選單分類教學](#手機版主選單分類教學)
 
@@ -40,7 +40,7 @@
 
 ***
 
-## 桌機版/手機版footer教學
+## 桌機版&手機版footer教學
 1. 更改HTML > 開啟 [footer.html](/html/footer.html)
 
 - 修改段落
@@ -79,6 +79,7 @@
 3. 點選最下面區塊 > View HTML
 ![image](https://github.com/hsinhuachen/nude_shopline/blob/master/teach/footer01.png)<br /><br />
 ![image](https://github.com/hsinhuachen/nude_shopline/blob/master/teach/footer02.png)<br /><br />
+![image](https://github.com/hsinhuachen/nude_shopline/blob/master/teach/footer03.png)
 ![image](https://github.com/hsinhuachen/nude_shopline/blob/master/teach/footer03.png)
 
 ***

@@ -88,6 +88,7 @@
 
 ## 手機版主選單目錄教學
 1. 進入 SHOPLINE 後台 > 目錄分頁管理 > 網店目錄管理 > 主目錄 增加	
+![image](https://github.com/hsinhuachen/nude_shopline/blob/master/teach/mobile_01.png)<br />
 2. 選擇外部連結 > 輸入連結 > 開啟連結位置選新網頁 > 增加
 ![image](https://github.com/hsinhuachen/nude_shopline/blob/master/teach/mobile_02.png)<br />
 

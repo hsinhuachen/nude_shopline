@@ -2504,6 +2504,10 @@ html[lang="en"] table.custom img{
     font-size: 1.7rem;
     text-align: center;
   }
+
+  .btn-add-to-cart.mobile-cart{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 960px){
@@ -2711,11 +2715,15 @@ html[lang="en"] table.custom img{
   }
 
   .product-info .variant-gallery-scroll-container{
-    width: 72px;
+    width: 77px;
   }
 
   .variant-gallery-slider{
-    width: auto;
+    width: 72px !important;
+  }
+
+  .quick-cart-body .variant-gallery{
+    display: none;
   }
 
   div[ng-controller=ProductsShowController] .product-info .text-center{
@@ -3414,4 +3422,12 @@ html[lang="en"] table.custom img{
   div[ng-controller=ProductsShowController] .col-md-6:nth-child(2) div.Wishlist-addItem-block{
     width: 100%;
   }
+}
+
+#memberWrap{
+  margin-top: -150px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: url(https://www.nude-underwear.com/2018/member_bg.jpg) no-repeat fixed;
+  background-position: top center;
 }

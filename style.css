@@ -194,16 +194,13 @@ div[ng-controller=MessageFormController] *{
   line-height: 30px;
 }
 
-#navWrap .secMenu a:hover{
-  color: #FFF;
-}
-
-#navWrap .secMenu a:hover{
-  color: #FFF;
-}
-
 #navWrap a:hover, #navWrap .global-nav a:hover{
   color: #333333;
+}
+
+#navWrap .mainMenu a:hover, 
+#navWrap .secMenu a:hover{
+  color: #FFF;
 }
 
 .global-bg1{
@@ -700,13 +697,13 @@ div#footer{
 #footer a{
   font-size: 1.5rem;
 }
-
-.footerNav a{
+  
+a.footerNavLink{
   margin: 0 -15px;
   padding: 0 15px;
 }
   
-.footerNav a:hover{
+a.footerNavLink:hover{
   background: #F0F0F0;
 }
 

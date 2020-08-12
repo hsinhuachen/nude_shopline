@@ -2,59 +2,77 @@
 var lang = $("html").attr("lang");
 var turn = ['A','B','C','D'];
 
+var b1 = {'title':'超完美無痕','titleEn':'Perfect Seamless','desc':'落實每日舒適質感生活概念的經典款式','img': 'a_b1.jpg','link': '/products/超完美無痕'};
+var b2 = {'title':'天使蕾絲抹胸','titleEn':'Lace Bandeau','desc':'能呈現多元穿搭的時尚款式','img': 'a_b2.jpg','link': '/products/天使蕾絲抹胸'};
+var b3 = {'title':'超完美無鋼圈','titleEn':'Perfect Wireless','desc':'落實每日舒適質感生活概念的經典款式','img': 'a_b3.jpg','link': '/products/超完美無鋼圈'};
+var b4 = {'title':'超感動舒服蕾','titleEn':"Jumper's Leisuree",'desc':'舒服自在好敢動 Y字美背超透膚','img': 'a_b4.JPG','link': '/products/nude-base-jumper-leisuree'};
+var b5 = {'title':'甜蜜假期波蕾','titleEn':'Holiday Bralette','desc':'能呈現多元穿搭的時尚款式','img': 'a_f3.jpg','link': '/products/甜蜜假期波蕾'};
+
+var f1 = {'title':'魔幻時尚前扣','titleEn':'Strapless Convertible','desc':'能呈現多元穿搭的時尚款式','img': 'a_f1.jpg','link': '/products/魔幻時尚前扣'};
+var f2 = {'title':'心機美背內衣','titleEn':'Front-click RacerBack','desc':'能呈現多元穿搭的時尚款式','img': 'a_f2.jpg','link': '/products/心機美背透視'};
+var f4 = {'title':'雙面女伶貝蕾','titleEn':'Duet Balconette','desc':'能呈現多元穿搭的時尚款式','img': 'a_f4.jpg','link': '/products/雙面女伶貝蕾'};
+var f5 = {'title':'V 溝影開襟內衣','titleEn':'Deep Plunge Bra','desc':'極致深V，迷人溝影，輕盈透亮，優雅身影，動靜非凡','img': 'a_f5.jpg','link': '/products/nude-fashion-optimal-v-plunge-bra'};
+var f6 = {'title':'絕美雕花舒服蕾','titleEn':'Lace Leisuree','desc':'最美貌的全蕾絲無鋼圈內搭 纖薄，包覆 ，深Ｖ，美背 一次擁有','img': 'a_f6.jpg','link': '/products/絕美雕花舒服蕾'};
+
+var r1 = {'title':'浪漫四蕾絲','titleEn':'Lace Push-up','desc':'將性感魅力淋漓呈現的夢幻款式','img': 'a_r1.jpg','link': '/products/浪漫四蕾絲'};
+var r2 = {'title':'純真雪紡貝蕾','titleEn':'Chiffon Balconette','desc':'','img': 'a_r2.jpg','link': '/products/純真雪紡貝蕾'};
+var r3 = {'title':'翩愛戀人波蕾','titleEn':'Beloved Bralette','desc':'將性感魅力淋漓呈現的夢幻款式','img': 'a_r3.jpg','link': '/products/翩愛戀人波蕾'};
+var r4 = {'title':'偷心密探薄蕾','titleEn':'Sheer Bra','desc':'','img': 'a_r4.jpg','link': '/products/偷心密探法式薄蕾'};
+var r5 = {'title':'花漾美人法式薄蕾','titleEn':'Belle Epoque Sheer Bra','desc':'','img': 'a_r5.jpg','link': '/products/花漾美人法式薄蕾'};
+
+var s1 = {'title':'超激塑 ALL IN ONE 纖體衣','titleEn':'Shape Suit','desc':'協助女性對抗身體老化維持身體窈窕曲線的修身款式','img': 'a_s1.jpg','link': '/products/超激塑all-in-one纖體衣'};
+var s2 = {'title':'灧色蝶燦內衣','titleEn':'Lace Bustier','desc':'將性感魅力淋漓呈現的夢幻款式','img': 'a_s2.jpg','link': '/products/灎色蝶燦'};
+var s3 = {'title':'超激塑高腰纖體褲','titleEn':'Shape Suit','desc':'','img': 'a_s3.jpg','link': '/products/超激塑高腰纖體褲'};
+
+var p1 = {'title':'極緻美型布鋼圈','titleEn':'Ultimate Wirless','desc':'','img': 'a_p1.jpg','link': '/products/極緻美型布鋼圈內衣'};
+var p2 = {'title':'華麗年代法式薄蕾','titleEn':'Belle Epoque Sheer Bra','desc':'','img': 'a_p2.jpg','link': '/products/華麗年代法式薄蕾'};
+
+var l1 = {'title':'絲柔光璨短袖上衣','titleEn':'Nude Nightwear Short Top','desc':'','img': 'a_l1.jpg','link': '/products/絲柔光燦短袖上衣'};
+var l2 = {'title':'絲柔光璨深V背心','titleEn':'Nude Nightwear Silky V Camisole','desc':'','img': 'a_l2.jpg','link': '/products/nude-nightwear-silky-v-camisole'};
+var l3 = {'title':'絲柔光璨短褲','titleEn':'Nude Nightwear Short Pants','desc':'','img': 'a_l3.jpg','link': '/products/絲柔光燦短褲'};
+var l4 = {'title':'絲柔光璨長褲','titleEn':'Nude Nightwear Long Pants','desc':'','img': 'a_l4.jpg','link': '/products/絲柔光燦長褲'};
+var l5 = {'title':'絲柔光璨深V連身裙','titleEn':'Nude Nightwear Midi Dress','desc':'','img': 'a_l5.jpg','link': '/products/絲柔光璨深v連身裙'};
+var l6 = {'title':'絲柔光璨長袍','titleEn':'Nude Nightwear Silky Robe','desc':'','img': 'a_l6.jpg','link': '/products/nude-nightwear-silky-robe'};
+
+
 if(lang == "en"){
 	var solutionA = ['Well-Rounded','Bottom-happy','Uneven','Wide & Low'];
 	var solutionB = [];
 
-	var b1 = {'title':'超完美無痕','titleEn':'Perfect Seamless','desc':'Classic Style that provides every-day comfort. ','img': 'a_b1.jpg','link': '/products/超完美無痕'};
-	var b2 = {'title':'天使蕾絲抹胸','titleEn':'Lace Bandeau','desc':'Fashion style that would do various coordination ','img': 'a_b2.jpg','link': '/products/天使蕾絲抹胸'};
-	var b3 = {'title':'超完美無鋼圈','titleEn':'Perfect Wireless','desc':'Classic Style that provides every-day comfort. ','img': 'a_b3.jpg','link': '/products/超完美無鋼圈'};
+	var sub1 = 'Slim & Flattering';
+	var sub2 = 'Natural';
+	var sub3 = 'Fully-Covered';
+	var sub4 = 'Push-in';
+	var sub5 = 'Push-up';
+	var sub6 = 'Unpretentious';
+	var sub7 = 'Focus Switching';
+	var sub8 = 'Body Shaping';
+	var sub9 = 'Lifting';
+	var sub10 = 'Ultra Support';
+	var sub11 = 'Molding';
 
-	var f1 = {'title':'魔幻時尚前扣','titleEn':'Strapless Convertible','desc':'Fashion style that would do various coordination ','img': 'a_f1.jpg','link': '/products/魔幻時尚前扣'};
-	var f2 = {'title':'心機美背內衣','titleEn':'Front-click RacerBack','desc':'Fashion style that would do various coordination ','img': 'a_f2.jpg','link': '/products/心機美背透視'};
-	var f3 = {'title':'甜蜜假期波蕾','titleEn':'Holiday Bralette','desc':'Fashion style that would do various coordination ','img': 'a_f3.jpg','link': '/products/甜蜜假期波蕾'};
-	var f4 = {'title':'雙面女伶貝蕾','titleEn':'Duet Balconette','desc':'Fashion style that would do various coordination ','img': 'a_f4.jpg','link': '/products/雙面女伶貝蕾'};
-
-	var r1 = {'title':'浪漫四蕾絲','titleEn':'Lace Push-up','desc':'Romantic style that releases the feminine charm.','img': 'a_r1.jpg','link': '/products/浪漫四蕾絲'};
-	var r2 = {'title':'純真雪紡貝蕾','titleEn':'Chiffon Balconette','desc':'','img': 'a_r2.jpg','link': '/products/純真雪紡貝蕾'};
-	var r3 = {'title':'翩愛戀人波蕾','titleEn':'Beloved Bralette','desc':'Romantic style that releases the feminine charm.','img': 'a_r3.jpg','link': '/products/翩愛戀人波蕾'};
-	var r4 = {'title':'偷心密探薄蕾','titleEn':'Sheer Bra','desc':'','img': 'a_r4.jpg','link': '/products/偷心密探法式薄蕾'};
-
-	var s1 = {'title':'超激塑 ALL IN ONE 纖體衣','titleEn':'Shape Suit','desc':'Shape Wear that keeps the body slim and firm.','img': 'a_s1.jpg','link': '/products/超激塑all-in-one纖體衣'};
-	var s2 = {'title':'灧色蝶燦內衣','titleEn':'Lace Bustier','desc':'Romantic style that releases the feminine charm.','img': 'a_s2.jpg','link': '/products/灎色蝶燦'};
-	var s3 = {'title':'超激塑高腰纖體褲','titleEn':'Shape Suit','desc':'','img': 'a_s3.jpg','link': '/products/超激塑高腰纖體褲'};
-
-	solutionB[0] = ['Slim & Flattering','Natural','Fully-Covered'];
-	solutionB[1] = ['Push-in','Push-up','Unpretentious'];
-	solutionB[2] = ['Focus Switching','Body Shaping'];
-	solutionB[3] = ['Lifting','Ultra Support','Molding'];
 }else{
 	var solutionA = ['渾圓飽滿<br />Well-Rounded','上胸平坦<br />Bottom-happy','左右不一<br />Uneven','外擴下垂<br />Well-Rounded'];
 	var solutionB = [];
 
-	var b1 = {'title':'超完美無痕','titleEn':'Perfect Seamless','desc':'落實每日舒適質感生活概念的經典款式','img': 'a_b1.jpg','link': '/products/超完美無痕'};
-	var b2 = {'title':'天使蕾絲抹胸','titleEn':'Lace Bandeau','desc':'能呈現多元穿搭的時尚款式','img': 'a_b2.jpg','link': '/products/天使蕾絲抹胸'};
-	var b3 = {'title':'超完美無鋼圈','titleEn':'Perfect Wireless','desc':'落實每日舒適質感生活概念的經典款式','img': 'a_b3.jpg','link': '/products/超完美無鋼圈'};
-
-	var f1 = {'title':'魔幻時尚前扣','titleEn':'Strapless Convertible','desc':'能呈現多元穿搭的時尚款式','img': 'a_f1.jpg','link': '/products/魔幻時尚前扣'};
-	var f2 = {'title':'心機美背內衣','titleEn':'Front-click RacerBack','desc':'能呈現多元穿搭的時尚款式','img': 'a_f2.jpg','link': '/products/心機美背透視'};
-	var f3 = {'title':'甜蜜假期波蕾','titleEn':'Holiday Bralette','desc':'能呈現多元穿搭的時尚款式','img': 'a_f3.jpg','link': '/products/甜蜜假期波蕾'};
-	var f4 = {'title':'雙面女伶貝蕾','titleEn':'Duet Balconette','desc':'能呈現多元穿搭的時尚款式','img': 'a_f4.jpg','link': '/products/雙面女伶貝蕾'};
-
-	var r1 = {'title':'浪漫四蕾絲','titleEn':'Lace Push-up','desc':'將性感魅力淋漓呈現的夢幻款式','img': 'a_r1.jpg','link': '/products/浪漫四蕾絲'};
-	var r2 = {'title':'純真雪紡貝蕾','titleEn':'Chiffon Balconette','desc':'','img': 'a_r2.jpg','link': '/products/純真雪紡貝蕾'};
-	var r3 = {'title':'翩愛戀人波蕾','titleEn':'Beloved Bralette','desc':'將性感魅力淋漓呈現的夢幻款式','img': 'a_r3.jpg','link': '/products/翩愛戀人波蕾'};
-	var r4 = {'title':'偷心密探薄蕾','titleEn':'Sheer Bra','desc':'','img': 'a_r4.jpg','link': '/products/偷心密探法式薄蕾'};
-
-	var s1 = {'title':'超激塑 ALL IN ONE 纖體衣','titleEn':'Shape Suit','desc':'協助女性對抗身體老化維持身體窈窕曲線的修身款式','img': 'a_s1.jpg','link': '/products/超激塑all-in-one纖體衣'};
-	var s2 = {'title':'灧色蝶燦內衣','titleEn':'Lace Bustier','desc':'將性感魅力淋漓呈現的夢幻款式','img': 'a_s2.jpg','link': '/products/灎色蝶燦'};
-	var s3 = {'title':'超激塑高腰纖體褲','titleEn':'Shape Suit','desc':'','img': 'a_s3.jpg','link': '/products/超激塑高腰纖體褲'};
-
-	solutionB[0] = ['顯瘦<br />Slim & Flattering','自然<br />Natural','包覆<br />Fully-Covered'];
-	solutionB[1] = ['豐盈飽滿<br />Push-in','托高上挺<br />Push-up','不做作<br />Unpretentious'];
-	solutionB[2] = ['視覺轉移<br />Focus Switching','調整身型<br />Body Shaping'];
-	solutionB[3] = ['拉提抗贅<br />Lifting','全面支撐<br />Ultra Support','溫和塑型<br />Molding'];
+	var sub1 = '顯瘦<br />Slim & Flattering';//ㄅ 
+	var sub2 = '自然<br />Natural'; //ㄆ
+	var sub3 = '包覆<br />Fully-Covered'; //ㄇ
+	var sub4 = '豐盈飽滿<br />Push-in'; //ㄈ 
+	var sub5 = '托高上挺<br />Push-up'; //ㄉ  
+	var sub6 = '不做作<br />Unpretentious'; //ㄊ
+	var sub7 = '視覺轉移<br />Focus Switching'; //ㄋ 
+	var sub8 = '調整身型<br />Body Shaping'; //ㄌ
+	var sub9 = '拉提抗贅<br />Lifting'; // ㄍ 
+	var sub10 = '全面支撐<br />Ultra Support'; // ㄎ 
+	var sub11 = '溫和塑型<br />Molding'; // ㄏ 
 }
+
+solutionB[0] = [sub1,sub2,sub3];
+solutionB[1] = [sub4,sub5,sub6];
+solutionB[2] = [sub7,sub8];
+solutionB[3] = [sub9,sub10,sub11];
+
 
 //----------------------------------------------------------
 
@@ -63,20 +81,20 @@ result[1] = [];
 result[2] = [];
 result[3] = [];
 
-result[0][0] = [f3,r3];
-result[0][1] = [b1,s1];
-result[0][2] = [b3,s2];
+result[0][0] = [b5,f6,r3];
+result[0][1] = [f4,r4,r5,p2];
+result[0][2] = [b3,b4,f5,f6,p1];
 
-result[1][0] = [b2,r1];
-result[1][1] = [b1,f1];
-result[1][2] = [b3,f4];
+result[1][0] = [b2,r1,r2];
+result[1][1] = [b1,r1,f1,f2];
+result[1][2] = [b1,b3,b4,r4];
 
-result[2][0] = [b2,f2];
-result[2][1] = [s1,s2];
+result[2][0] = [b2,f2,f5,f6];
+result[2][1] = [s1,s2,p1];
 
-result[3][0] = [f1,f2];
-result[3][1] = [s1,s2];
-result[3][2] = [b1,b3];
+result[3][0] = [f5,p1];
+result[3][1] = [f5,p2];
+result[3][2] = [b3,p1];
 
 $(function(){
 	$(".slideto").on('click', function(event) {

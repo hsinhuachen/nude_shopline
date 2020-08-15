@@ -11,13 +11,13 @@ var b5 = {'title':'甜蜜假期波蕾','titleEn':'Holiday Bralette','desc':'能�
 var f1 = {'title':'魔幻時尚前扣','titleEn':'Strapless Convertible','desc':'能呈現多元穿搭的時尚款式','img': 'a_f1.jpg','link': '/products/魔幻時尚前扣'};
 var f2 = {'title':'心機美背內衣','titleEn':'Front-click RacerBack','desc':'能呈現多元穿搭的時尚款式','img': 'a_f2.jpg','link': '/products/心機美背透視'};
 var f4 = {'title':'雙面女伶貝蕾','titleEn':'Duet Balconette','desc':'能呈現多元穿搭的時尚款式','img': 'a_f4.jpg','link': '/products/雙面女伶貝蕾'};
-var f5 = {'title':'V 溝影開襟內衣','titleEn':'Deep Plunge Bra','desc':'極致深V，迷人溝影，輕盈透亮，優雅身影，動靜非凡','img': 'a_f5.jpg','link': '/products/nude-fashion-optimal-v-plunge-bra'};
+var f5 = {'title':'V溝影開襟內衣','titleEn':'Deep Plunge Bra','desc':'極致深V，迷人溝影，輕盈透亮，優雅身影，動靜非凡','img': 'a_f5.jpg','link': '/products/nude-fashion-optimal-v-plunge-bra'};
 var f6 = {'title':'絕美雕花舒服蕾','titleEn':'Lace Leisuree','desc':'最美貌的全蕾絲無鋼圈內搭 纖薄，包覆 ，深Ｖ，美背 一次擁有','img': 'a_f6.jpg','link': '/products/絕美雕花舒服蕾'};
 
 var r1 = {'title':'浪漫四蕾絲','titleEn':'Lace Push-up','desc':'將性感魅力淋漓呈現的夢幻款式','img': 'a_r1.jpg','link': '/products/浪漫四蕾絲'};
 var r2 = {'title':'純真雪紡貝蕾','titleEn':'Chiffon Balconette','desc':'','img': 'a_r2.jpg','link': '/products/純真雪紡貝蕾'};
 var r3 = {'title':'翩愛戀人波蕾','titleEn':'Beloved Bralette','desc':'將性感魅力淋漓呈現的夢幻款式','img': 'a_r3.jpg','link': '/products/翩愛戀人波蕾'};
-var r4 = {'title':'偷心密探薄蕾','titleEn':'Sheer Bra','desc':'','img': 'a_r4.jpg','link': '/products/偷心密探法式薄蕾'};
+var r4 = {'title':'偷心密探法式薄蕾','titleEn':'Sheer Bra','desc':'','img': 'a_r4.jpg','link': '/products/偷心密探法式薄蕾'};
 var r5 = {'title':'花漾美人法式薄蕾','titleEn':'Belle Epoque Sheer Bra','desc':'','img': 'a_r5.jpg','link': '/products/花漾美人法式薄蕾'};
 
 var s1 = {'title':'超激塑 ALL IN ONE 纖體衣','titleEn':'Shape Suit','desc':'協助女性對抗身體老化維持身體窈窕曲線的修身款式','img': 'a_s1.jpg','link': '/products/超激塑all-in-one纖體衣'};

@@ -435,6 +435,7 @@ div.shopline-product-review-container{
   html[lang="en"] h2.indexTitle{
     line-height: 130%;
   }
+ 
 }
 
 h2.indexTitle2{
@@ -1420,7 +1421,7 @@ html[lang="zh-hant"] .posts h4{
 .posts h4{
   color: #333333;
   letter-spacing: 1.45px;
-  line-height: 120%;
+  line-height: 140%;
   margin-bottom: 35px;
 }
 
@@ -1461,6 +1462,7 @@ html[lang="en"] .posts h6{
   } .owl-dots{
     bottom: 10px;
     }
+ .posts h5 {margin-bottom: 8px;}
 }
 
 .posts p{
@@ -2377,7 +2379,8 @@ html[lang="en"] .number{
 
 @media screen and (max-width: 640px){
   .start{
-    font-size: 10vmin;
+    font-size: 9.5vmin;
+    margin-top: 40px;
   }
 
   .start .fa, html[lang="en"] .start .fa {
@@ -2766,7 +2769,23 @@ html[lang="en"] table.custom img{
   .excerpt{
     width: 90%;
   }
+}
 
+
+@media (max-width: 576px){
+  a.slideArrow{
+    top: 0;
+    height: calc((100vw - 40px) * 1.3125);
+    padding: 0 10px;
+  }
+
+  .scrollLeft{
+    right: 0px;
+  }
+
+  .scrollRight{
+    left: 0px;
+  }
 }
 
 .variation-detail .ng-scope .variation_title{
@@ -2821,6 +2840,7 @@ html[lang="en"] table.custom img{
 
   .product-info .variant-gallery-scroll-container{
     width: 77px;
+    z-index: unset;
   }
 
   .variant-gallery-slider{
@@ -2860,14 +2880,7 @@ html[lang="en"] table.custom img{
   }
   
   .variant-gallery-scroll-container::-webkit-scrollbar-track {
-  }
-
-  .variant-gallery-scroll-container::-webkit-scrollbar:vertical {
-    width: 11px;
-  }
-
-  .variant-gallery-scroll-container::-webkit-scrollbar:horizontal {
-    height: 11px;
+    /*background: #FF0000;*/
   }
 
   .variant-gallery-scroll-container::-webkit-scrollbar-thumb {

@@ -1,4 +1,5 @@
 <script>
+//機能方案
 var lang = $("html").attr("lang");
 var turn = ['A','B','C','D'];
 
@@ -205,7 +206,7 @@ $(function(){
 			$('#resultItem').owlCarousel('destroy');
 			$(".owl-hidden").removeClass('owl-hidden');
 			$('#resultItem').owlCarousel({
-			    loop: false,
+			    loop: true,
 			    margin: 45,
 			    autoWidth:false,
    				items:1,

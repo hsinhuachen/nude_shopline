@@ -79,14 +79,14 @@ result[5] = [];
 result[0][0] = [b1,b3,b4,b5,p1];
 result[0][1] = [b1,b2,f2,f5,p1];
 result[0][2] = [b1,f1,f2,f5,p1];
-result[0][3] = [b3,b4,b5,f5,p1];
+result[0][3] = [b3,b4,b5,f6,p1];
 result[0][4] = [l1,l2,l3,l4,l5,l6];
 
-result[1][0] = [b3,b4,b5,f6,p1];
-result[1][1] = [l1,l2,l3,l4,l5,l6];
+result[1][0] = [b1,b2,f2,f5,p1];
+result[1][1] = [b1,f1,f2,f5,p1];
 
-result[2][0] = [f2,f4,f6,r1,r2,r3];
-result[2][1] = [b2,f4,r2,r4,r5,p2];
+result[2][0] = [f2,f1,f4,f6,r1,r2,r3];
+result[2][1] = [b2,f5,r2,r4,r5,p2];
 
 result[3][0] = [f1,f2,f5,p1,s1,s3];
 result[3][1] = [f1,f5,p1,s1,s3];

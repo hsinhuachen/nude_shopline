@@ -432,6 +432,8 @@ div.shopline-product-review-container{
 
 
 @media screen and (max-width: 767px){
+
+
   html[lang="en"] h2.indexTitle{
     line-height: 130%;
   }
@@ -2103,6 +2105,7 @@ margin-right: 0px;
   color: #333333;
   background-color: #EFCBB8;
   border-color: #EFCBB8;
+  padding: 10px;
 }
 
 .tab-pane button.btn.btn-success:hover, 
@@ -2153,17 +2156,38 @@ margin-right: 0px;
 .member-center-vertical-top {
   
 }
+--525新增---->
 
+#message_text{width: 100%;height: 200px;}
 .member-center-title{
   padding-left: 44px;
   padding-bottom: 10px;
 }
+.member-center-logout #signoutForm .btn-link {
+    display: block;
+    position: absolute;
+    z-index: 800;
+    left: 110px;
+    top: -9px;
+}
+.member-content-center .mobile-phone-control .fa-icon, .member-content-center .email-control .fa-icon{margin-right:0;}
+
+.member-center-profile .container .platform-icon {margin-top: -11px; margin-right: 5px;}
+.member-center-profile .container .profile-icon {margin: -7px 2px 0 2px;}
 
 .member-content-center #store-credits th, 
 .member-content-center .order-container th{
   font-size: 17px;
   text-align: left;
 }
+
+.product-info .addon-item-container #btn-main-checkout, .product-info .addon-item-container #btn-addon-checkout,
+.product-info .addon-item-container #btn-add-to-cart, .product-info .addon-item-container .btn-custom.btn-buy-now,
+.product-info .addon-item-container .btn-buy-togerher{ line-height: 40px}
+
+.controls .ng-scope {width: auto}
+.controls .ng-scope#message_text {width: 100%}
+
 
 .pagination{
   font-size: 0;
@@ -2278,6 +2302,7 @@ html[lang="en"] .posts h4{
 }
 
 @media screen and (max-width: 640px){
+    
   .description-container .w750 h2.ch, 
   .description-container .w750 h2 .ch{
     margin-top: 0;
@@ -2769,6 +2794,8 @@ html[lang="en"] table.custom img{
   .excerpt{
     width: 90%;
   }
+ .member-center-logout #signoutForm .btn-link {left:0;}
+.product-detail-button-container.has-buy-now-button button:last-child {margin-top:10px;}
 }
 
 
@@ -2880,7 +2907,7 @@ html[lang="en"] table.custom img{
   }
   
   .variant-gallery-scroll-container::-webkit-scrollbar-track {
-    /*background: #FF0000;*/
+   background: #999999;
   }
 
   .variant-gallery-scroll-container::-webkit-scrollbar-thumb {
@@ -2972,6 +2999,8 @@ html[lang="en"] table.custom img{
 }
 
 @media screen and (max-width: 767px){
+ 
+    
   .mobile-revamp-navigation .sidr{
     padding-bottom: 40px;
   }
@@ -3568,6 +3597,6 @@ html[lang="en"] table.custom img{
   margin-top: -150px;
   padding-top: 150px;
   padding-bottom: 150px;
-  background: url(https://www.nude-underwear.com/2018/member_bg.jpg) no-repeat fixed;
+  background: url(https://www.nude-underwear.com/2018/member_bg.jpg) fixed;
   background-position: top center;
 }

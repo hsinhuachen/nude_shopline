@@ -1,11 +1,28 @@
 *{
-  font-family: "Helvetica Neue", Helvetica, "Pontano Sans", PingFangTC-Regular, "Noto Sans TC", "Microsoft JhengHei", "Lucida Grande", "微軟正黑體", Verdana, Arial, sans-serif;
+  font-family: "Pontano Sans", PingFangTC-Regular, "Noto Sans TC", "Microsoft JhengHei", "Lucida Grande", "微軟正黑體", Verdana, Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
 
 body{
   overflow-x: hidden;
 }
+
+body.v1_theme p, body.v1_theme .custom-page .title, body.v1_theme .description-container p, body.v1_theme .previewing-closed-store-banner p{
+line-height: 1.8;
+  }
+  .Journal p {text-align:justify;}
+  .Journal h2.indexTitle { 
+    font-family:"Helvetica Neue", Helvetica, "Lantinghei SC Extralight", "Microsoft JhengHei", "Lucida Grande", 微軟正黑體, Verdana, Arial, sans-serif;
+    font-size: 3.7rem;
+  }
+  .Journal  hr{
+    display: block;
+  }
+  .Journal  img.maxpic {
+    margin-left:-100px;
+    margin-right:-100px;
+    width:950px;
+  }
 
 b, strong{
   font-weight: 500;
@@ -53,7 +70,7 @@ b, strong{
 }
 
 br{
-  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
 }
 
 .radius{
@@ -349,14 +366,14 @@ div[ng-controller=MessageFormController] *{
 }
 
 h2.indexTitle{
-  font-family: "Lantinghei SC Extralight", "Microsoft JhengHei", "Lucida Grande", 微軟正黑體, Verdana, Arial, Helvetica, sans-serif;
+  font-family:"Helvetica Neue", Helvetica, "Lantinghei SC Extralight", "Microsoft JhengHei", "Lucida Grande", 微軟正黑體, Verdana,  Arial, sans-serif;
   color: #333333;
   font-size: 3.3rem;
   font-weight: 300;
   letter-spacing: 0px;
   line-height: 139%;
   padding: 0;
-  margin: 0 0 32px 0; 
+  margin: 0 0 30px 0; 
   border: none;
 }
 
@@ -413,6 +430,71 @@ div.shopline-product-review-container{
     margin-bottom: 20px;
 }
 
+#memberWrap{
+  margin-top: -150px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: url(https://www.nude-underwear.com/2018/member_bg.jpg) fixed;
+  background-position: top center;
+}
+
+#CSRWrap{
+  margin-top: -150px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: url(https://www.nude-underwear.com/2018/csr_bg.jpg) fixed;
+  background-position: top center;
+}
+
+  .sold-out-item-content, .available-time-content {
+    border-radius: 0;
+  }
+.member-price-tag, .product-customized-labels{border-radius: 0;}
+.panel-heading{text-align: center;
+}
+
+  .blog-post{
+    margin: 80px auto;
+    max-width: 900px;
+  }
+
+  .blog-post h1{
+    letter-spacing:0;
+  }
+  .body-content p{
+      text-align: justify;
+  }
+
+ .blog-post  blockquote{  
+    padding: 0 20px 0 20px;
+  }
+ .body-content blockquote p {  
+    text-align: left;
+  }
+  .blog-post .post-date{
+    padding-bottom: 16px;
+    margin-bottom: 40px;
+  }
+  .posts .blog-post  h4{
+    margin-bottom: 8px;
+    letter-spacing: 0;
+  }
+.posts .blog-post  h3{
+    margin-bottom: 20px;
+    line-height: 150%;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+  }
+.blog-post hr{
+    display: block;
+  }
+.blog-post  .title span{
+    font-family: "Pontano Sans", PingFangTC-Regular, "Noto Sans TC", "Microsoft JhengHei", "Lucida Grande", "微軟正黑體", Verdana,  Helvetica, Arial, sans-serif;
+    letter-spacing: 0;
+    font-size: 3.1rem;
+    font-weight: 300;
+    color:#333333;
+  }
 
 @media (max-width: 600px){
     .review-summary-bars { 
@@ -427,13 +509,32 @@ div.shopline-product-review-container{
     }
     .product-reviews-container .product-review-no-data{
         text-align: center;
-  }
+    }
+    
+    .Journal  img.maxpic {
+      margin-left:0;
+      margin-right:0;
+      width:100%;
+    }
 }
 
 
 @media screen and (max-width: 767px){
 
+  .blog-post .title span{
+    font-size: 2.7rem;
+  }
 
+ body.v1_theme .custom-page .blog-post .title{
+    line-height: 150%;
+    font-size: 2.1rem;
+    text-align: left;
+    letter-spacing: 0;
+  }
+  .blog-post {
+    margin: 30px auto;
+    padding: 0;
+  }
   html[lang="en"] h2.indexTitle{
     line-height: 130%;
   }
@@ -465,7 +566,7 @@ h2.sectionTitle{
   font-size: 2.5rem;
   font-weight: 400;
   letter-spacing: 10px;
-  line-height: 100%;
+  line-height: 120%;
   padding: 0;
   margin: 0; 
   border: none;
@@ -484,7 +585,8 @@ h2.global-primary{
   margin: 0; 
   border: none;
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 h2.sectionTitle.descH2, .pageTitle.descH2{
@@ -492,7 +594,7 @@ h2.sectionTitle.descH2, .pageTitle.descH2{
 }
 
 .large-message h2.global-primary{
-    font-family: "Lantinghei SC Extralight", "Microsoft JhengHei", "Lucida Grande", 微軟正黑體, Verdana, Arial, Helvetica, sans-serif;
+    font-family:"Helvetica Neue", Helvetica, "Lantinghei SC Extralight", "Microsoft JhengHei", "Lucida Grande", 微軟正黑體, Verdana, Arial, sans-serif;
     color: #333333;
     font-size: 2.9rem;
     letter-spacing: 1.45px;
@@ -525,13 +627,13 @@ h2.sectionTitle.descH2, .pageTitle.descH2{
 
 .description-container .w750 h2.ch, 
 .description-container .w750 h2 .ch{
-  font-family: "Lantinghei SC Extralight", "Microsoft JhengHei", "Lucida Grande", 微軟正黑體, Verdana, Arial, Helvetica, sans-serif;
+ font-family: "Helvetica Neue", Helvetica, "Lantinghei SC Extralight", "Microsoft JhengHei", "Lucida Grande", 微軟正黑體, Verdana, Arial, sans-serif;
   color: #333333;
-  font-size: 2.1rem;
+  font-size: 2.5rem;
   letter-spacing: 0px;
   line-height: 170%;
   margin-bottom: 0;
-  padding-bottom: 40px;
+  padding-bottom:20px;
 }
 
 .custom-page .section-title{
@@ -545,6 +647,7 @@ h2.sectionTitle.descH2, .pageTitle.descH2{
   line-height: 194%;
   text-align: center;
 }
+
 
 html[lang="en"] .desc p{
   line-height: 177%;
@@ -577,6 +680,8 @@ html[lang="en"] .desc p{
   height: 484px;
   margin: 0 auto;
   padding-top: 90px;
+  margin-bottom:160px;
+  margin-top:-50px;
 }
 
 .indexAboutWrap{
@@ -585,12 +690,15 @@ html[lang="en"] .desc p{
   background-size: cover;
   background-color: #D9C0AC;
   padding: 110px 20px 40px 20px;
-  margin: 0 -15px;
+  margin: 100px -15px 0 -15px;
 }
 
 
 html[lang="en"] .global-primary a.golink{
   letter-spacing: 4px;
+}
+.checkout-nav {
+    margin-top: 80px;
 }
 
 @media screen and (min-width: 768px){
@@ -649,8 +757,8 @@ html[lang="en"] .global-primary a.golink{
 
 .product-item .title{
   color: #333333;
-  font-size: 2.7rem;
-  letter-spacing: 1px;
+  font-size: 3rem;
+  letter-spacing: 0px;
   text-align: center;
   padding: 0 10px;
   font-weight: 300;
@@ -663,7 +771,7 @@ html[lang="en"] .global-primary a.golink{
 }
 
 .product-item .price{
-  font-family: "Helvetica Neue", Helvetica, "Pontano Sans", PingFangTC-Regular, "Noto Sans TC", "Microsoft JhengHei", "Lucida Grande", "微軟正黑體", Verdana, Arial, sans-serif;
+  font-family: "Pontano Sans", PingFangTC-Regular, "Noto Sans TC", "Microsoft JhengHei", "Lucida Grande", "微軟正黑體", Verdana, Helvetica, Arial, sans-serif;
   color: #333333;
   font-size: 2.1rem;
   font-weight: 300;
@@ -673,7 +781,7 @@ html[lang="en"] .global-primary a.golink{
 }
 
 div[ng-controller=ProductsShowController] .product-item .price{
-  font-family: "Helvetica Neue", Helvetica, "Pontano Sans", PingFangTC-Regular, "Noto Sans TC", "Microsoft JhengHei", "Lucida Grande", "微軟正黑體", Verdana, Arial, sans-serif;
+  font-family: "Pontano Sans", PingFangTC-Regular, "Noto Sans TC", "Microsoft JhengHei", "Lucida Grande", "微軟正黑體", Verdana, Helvetica, Arial, sans-serif;
   letter-spacing: 0px;
 }
 
@@ -767,6 +875,7 @@ div#footer{
 #footer p, #footer a{
   color: #333333;
   line-height: 26px;
+  font-size: 1.5rem;
 }
 
 #footer a{
@@ -1081,8 +1190,18 @@ html[lang="en"] .product-info .title h1{
 }
 
 @media screen and (max-width: 640px){
+
+
+  #CSRWrap{
+   background-position: -360px   top; 
+  background-size: 520%;
+  background-attachment: fixed;
+  }
+  #CSRWrap .csrdata{ display: block;text-align: left;}
+
   .description-container{
-    line-height: 129%;
+    line-height: 170%;
+    font-size: 1.5rem;
   }
 }
 
@@ -1226,7 +1345,7 @@ table.custom.grid-4 td:nth-child(even){
 }
 
 .description-container ol li{
-  font-family: "Helvetica Neue", Helvetica, "Pontano Sans", PingFangTC-Regular, "Noto Sans TC", "Microsoft JhengHei", "Lucida Grande", "微軟正黑體", Verdana, Arial, sans-serif;
+  font-family: "Pontano Sans", PingFangTC-Regular, "Noto Sans TC", "Microsoft JhengHei", "Lucida Grande", "微軟正黑體", Verdana, Helvetica, Arial, sans-serif;
 }
 
 .Wishlist-addItem-block.Wishlist-block-center{
@@ -1243,7 +1362,7 @@ table.custom.grid-4 td:nth-child(even){
 }}
 
 .feature{
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   display: table;
 }
 
@@ -1334,7 +1453,8 @@ table.custom.grid-4 td:nth-child(even){
 }
 
 div[ng-controller=ProductsShowController] .title{
-  font-family: "Lantinghei SC Extralight", "Microsoft JhengHei", "Lucida Grande", 微軟正黑體, Verdana, Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, "Lantinghei SC Extralight", "Microsoft JhengHei", "Lucida Grande", 微軟正黑體, Verdana, Arial, sans-serif;
+  font-weight: 300;
   text-align: center;
 }
 
@@ -1355,6 +1475,13 @@ div[ng-controller=ProductsShowController] .title{
   padding-left: 0;
   padding-right: 0;
 }
+.yield-wrapper .container .description .zIndex2{ 
+    margin-top:120px;
+  }
+
+.yield-wrapper .container .description .Journal .zIndex2{ 
+    margin-top: 0px;
+  }
 
 .pages .custom-page-title{
   display: none;
@@ -1403,9 +1530,11 @@ html[lang="zh-hant"] .fontMing{
 }
 
 html[lang="zh-hant"] .pageTitle {
-  font-family: "Helvetica Neue", Helvetica, "Lantinghei SC Extralight", "Microsoft JhengHei", "Lucida Grande", 微軟正黑體, Verdana, Arial, sans-serif;
+  font-family:"Helvetica Neue", Helvetica, "Lantinghei SC Extralight", "Microsoft JhengHei", "Lucida Grande", 微軟正黑體, Verdana, Arial, sans-serif;
   font-weight: 300;
 }
+
+
 
 .pageTitle{
   color: #333333;
@@ -1431,7 +1560,23 @@ html[lang="en"] .posts h4{
   font-size: 2.7rem;
   letter-spacing: 0px;
 }
-
+  div.Journal h5{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding:16px 0;
+    margin-top:50px;
+    margin-bottom:50px;
+  }
+  div.Journal h3{
+    margin-top: 10px;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+div.Journal h2.sectionTitle{ 
+    margin-top:20px;
+    font-size: 1.8rem;
+    font-family: 'Cormorant Garamond', serif !important;
+}
 .posts h5{
   color: #333333;
   font-size: 2.1rem;
@@ -1459,12 +1604,17 @@ html[lang="en"] .posts h6{
 }
 
 @media screen and (max-width: 640px){
+
   .posts h6{
     line-height: 157%;
-  } .owl-dots{
-    bottom: 10px;
+  } 
+.owl-dots{
+    bottom: -40px;
     }
- .posts h5 {margin-bottom: 8px;}
+ .posts h5 {
+margin-bottom: 18px;
+font-size: 1.9rem;
+  }
 }
 
 .posts p{
@@ -1933,6 +2083,10 @@ html[lang="en"] .selectItem{
 .contactText{
   word-spacing: 10px;
 }
+  .plp-wishlist-button{
+    display: none;
+  }
+
 
 @media (min-width: 641px){
   .contactText span{
@@ -1942,6 +2096,7 @@ html[lang="en"] .selectItem{
 }
 
 @media screen and (max-width: 640px){
+
   .contactText{
     text-align: center;
     word-spacing: 0px; 
@@ -2156,7 +2311,7 @@ margin-right: 0px;
 .member-center-vertical-top {
   
 }
---525新增---->
+-525新增---->
 
 #message_text{width: 100%;height: 200px;}
 .member-center-title{
@@ -2322,7 +2477,7 @@ html[lang="en"] .justify{
 html[lang="en"] .products.show .onlineBtn{
   writing-mode: tb-rl;
   white-space: nowrap;
-  right: 20px;
+  right: 0px;
   width: auto;
   letter-spacing: 2px;
 }
@@ -2349,6 +2504,7 @@ html[lang="en"] .pageDesc{
 html[lang="en"] h2.global-primary, 
 .description-container h2 .ch{
   letter-spacing: 4px;
+  font-size: 3.5rem;
 }
 
 html[lang="en"] .pageDesc{
@@ -2404,13 +2560,13 @@ html[lang="en"] .number{
 
 @media screen and (max-width: 640px){
   .start{
-    font-size: 9.5vmin;
+    font-size: 6.5vmin;
     margin-top: 40px;
   }
 
   .start .fa, html[lang="en"] .start .fa {
-    width: 10vmin;
-    height: 10vmin;
+    width: 7vmin;
+    height: 7vmin;
     padding-top: 0;
   }
 }
@@ -2450,12 +2606,13 @@ html[lang="en"] .product-item .title{
 @media screen and (max-width: 640px){
   html[lang="en"] .product-item .title{
     font-size: 1.7rem;
-    letter-spacing: 0;
+    letter-spacing: 0.03rem;
     padding: 0;
   }
 
   .related-products .product-item .price{
     display: none;
+
   }
 }
 
@@ -2468,9 +2625,10 @@ html[lang="en"] #navWrap .secMenu a{
 html[lang="en"] .description-container .w750 h2.ch, 
 html[lang="en"] .description-container .w750 h2 .ch{
   color: #333333;
-  font-size: 2.7rem;
-  letter-spacing: 4px;
-  line-height: 100%;
+  font-size: 2.5rem;
+  letter-spacing: 0px;
+  line-height: 160%;
+  font-weight: 400;
 }
 
 html[lang="en"] .description-container p,
@@ -2561,6 +2719,10 @@ html[lang="en"] table.custom img{
     padding-top: 70px;
     padding-bottom: 70px;
   }
+ .checkout-nav{
+    margin-top:30px;
+  }
+
 }
 
 @media (min-width: 1200px){
@@ -2616,7 +2778,7 @@ html[lang="en"] table.custom img{
 @media screen and (max-width: 959px){
   .info-box-inner-wrapper{
     text-align: center;
-    padding: 0 15px 20px 15px;
+    padding: 8px 0 0 0;
     display: block;
   }
   .product-reviews-container {
@@ -2630,6 +2792,7 @@ html[lang="en"] table.custom img{
   .product-item .price{
     font-size: 1.7rem;
     text-align: center;
+    padding-top: 7px;
   }
 
   .btn-add-to-cart.mobile-cart{
@@ -2736,7 +2899,7 @@ html[lang="en"] table.custom img{
   }
 
   #footer p{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   .footerNav {
@@ -2785,6 +2948,7 @@ html[lang="en"] table.custom img{
 }
 
 @media (max-width: 892px){
+
   .selectItem{
     width: 25%;
   }
@@ -2826,7 +2990,7 @@ html[lang="en"] table.custom img{
 
 
   div[ng-controller=ProductsShowController] .title{
-    font-size: 2.1rem;
+    font-size: 2.5rem;
   }
 
   div[ng-controller=ProductsShowController] .product-info{
@@ -2862,7 +3026,7 @@ html[lang="en"] table.custom img{
   }
 
   div[ng-controller=ProductsShowController] .product-info .variant-gallery-stage{
-    margin-right: 20px;
+    margin-right: 40px;
   }
 
   .product-info .variant-gallery-scroll-container{
@@ -2955,8 +3119,10 @@ html[lang="en"] table.custom img{
   }
 
   html[lang="zh-hant"] .product-detail-container {
-    font-size: 18px;
   }
+  .product-info .blacklisted-payment, .product-info .blacklisted-delivery-option{
+    padding: 0;
+}
 
 }
 
@@ -2994,7 +3160,6 @@ html[lang="en"] table.custom img{
 
   div[ng-controller=ProductsShowController] .title{
     text-align: left;
-    margin-top: -6px;
   }
 }
 
@@ -3007,8 +3172,13 @@ html[lang="en"] table.custom img{
   
   .backBtn{
     left: 20px;
-    top: -30px;
+    top: -31px;
+    font-size: 14px;
   }
+
+.fixed-menu-wrapper {
+    top: 10px;
+}
 
   #pageLogo .middle{
     display: none;
@@ -3033,7 +3203,7 @@ html[lang="en"] table.custom img{
   }
 
   .pages .yield-wrapper{
-    padding-top: 10px;
+    padding-top: 0px;
   }
 
   .body-wrapper{
@@ -3063,6 +3233,8 @@ html[lang="en"] table.custom img{
 
   .note{
     padding: 18px 20px;
+    font-size: 1.5rem;
+    line-height: 180%;
   }
 
   html[lang="en"] .note{
@@ -3075,11 +3247,11 @@ html[lang="en"] table.custom img{
   }
 
   .mobile-logo a{
-    top: 15px;
+    top: 5px;
   }
 
   #page-item-5b0fd7e79a76f0de8e000379{
-    margin-top: 30px;
+    margin-top: 90px;
     margin-bottom: 30px;
   }
   
@@ -3096,7 +3268,7 @@ html[lang="en"] table.custom img{
   .indexSizeWrap{
     position: relative;
     height: auto;
-    margin: 0 auto;
+    margin: 20px auto 60px auto;
     padding-top: 40px;
     padding-left: 0;
     padding-bottom: 40px;
@@ -3105,7 +3277,7 @@ html[lang="en"] table.custom img{
 
   .sizeImg{
     width: 70% !important;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 20px auto;
   }
 
   .indexSizeInfo{
@@ -3165,7 +3337,8 @@ html[lang="en"] table.custom img{
   }
 
   h2.sectionTitle.descH2, .pageTitle.descH2{
-    margin-bottom: 0;
+    margin-bottom: -14px;
+    margin-top: 16px;
   }
 
   .scroll{
@@ -3211,7 +3384,7 @@ html[lang="en"] table.custom img{
 }
 
 @media screen and (max-width: 640px){
-  .col-xs-12, .product-detail-container, .suggest,
+   .col-xs-12, .product-detail-container, .suggest,
   .yield-wrapper .page-cart .container, .yield-wrapper .page-checkout .container,
   .yield-wrapper .page-order-show .container{
     padding-left: 20px;
@@ -3239,12 +3412,12 @@ html[lang="en"] table.custom img{
   }
 
   h2.sectionTitle, h2.global-primary{
-    font-size: 2.3rem;
+    font-size: 2.7rem;
     letter-spacing: 7px;
   }
 
   .pageTitle{
-    font-size: 3rem;
+    font-size: 3.1rem;
     letter-spacing: -1px;
   }
 
@@ -3259,6 +3432,7 @@ html[lang="en"] table.custom img{
 
   html[lang="zh-hant"] .desc p{
     text-align: justify;
+    font-size: 1.6rem;
   }
 
   .desc p br{
@@ -3296,7 +3470,7 @@ html[lang="en"] table.custom img{
   }
 
   #productNav .row-md-height:nth-child(1) .productNavItem:nth-child(1){
-    background-image: url("//www.nude-underwear.com/2018/index/p1_banner_m.jpg");
+    background-image: url("//www.nude-underwear.com/2018/index/p5_banner_m.jpg");
   }
 
   #productNav .row-md-height:nth-child(1) .productNavItem:nth-child(3){
@@ -3308,7 +3482,7 @@ html[lang="en"] table.custom img{
   }
 
   #productNav .row-md-height:nth-child(2) .productNavItem:nth-child(3){
-    background-image: url("//www.nude-underwear.com/2018/index/p4_banner_m.jpg");
+    background-image: url("//www.nude-underwear.com/2018/index/p1_banner_m.jpg");
   }
 
   #productNav .productNavItem:nth-child(2){
@@ -3365,7 +3539,7 @@ html[lang="en"] table.custom img{
   .indexAboutWrap{
     height: auto;
     background-size: 200%;
-    padding-bottom: 250px;
+    padding-bottom: 280px;
   }
 
   .excerpt .excerptImg, .excerpt .excerptInfo{
@@ -3392,7 +3566,9 @@ html[lang="en"] table.custom img{
   .excerptImg img{
     width: 80%;
   }
-
+  .excerpt .excerptImg img{
+    transform: translate(-5px, -10px);
+  }
   .select{
     margin-left: 0;
     text-align: left;
@@ -3472,14 +3648,57 @@ html[lang="en"] table.custom img{
 }
 
 @media screen and (max-width: 500px){
+
+  .smc-text-outer{
+    position: absolute;
+    left: 12%;bottom: -10px;}
+  
+  .rosetta-carousel{
+    margin-bottom:30px;  
+  }
+  div.Journal h3 {
+    margin-top: 6px;
+  }
+  div.Journal{
+    padding:0;
+  }
+  .Journal h2.indexTitle{
+    font-size: 3.3rem;
+    margin:20px 0;
+  }
+ .custom-page .has-wishlist-button .quick-cart-price{
+    margin-bottom: 0;
+    margin-top: -5px;
+  }
+  product-item.has-wishlist-button sl-list-page-wishlist-button{
+    top:90px;
+  }
+ 
+  .yield-wrapper .container .description .zIndex2 {
+    margin-top: 30px;
+  }
+ .yield-wrapper .container .description .Journal .zIndex2 {
+    margin-top: 0px;
+  }
+    product-item.has-wishlist-button .info-box{margin-bottom:0;
+  }
+  .review-summary-source{
+    margin-top: 0px;
+  }
+
+  .boxify-container product-item.quick-cart-mobile.has-wishlist-button .quick-cart-price, 
+  .boxify-container product-item.quick-cart-mobile.only-wishlist-button .quick-cart-price{
+    margin-bottom:20px !important;
+  }
+
   .hgroup{
-    padding-bottom: 20px;
+    padding-bottom: 26px;
   }
 
   .global-primary a.btnLink, .btnLink{
     width: 40%;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 7px 0;
+    font-size: 1.6rem;
   }
 
   .numberItem {
@@ -3515,7 +3734,22 @@ html[lang="en"] table.custom img{
   .feature h3{
     width: 110px;
     padding-right: 10px;
+    font-size: 1.5rem;
   }
+.description-container .w750 h2.ch, 
+.description-container .w750 h2 .ch{
+     font-size: 2.1rem;
+}
+.product-info .title h1{ 
+    font-size: 3.1rem;
+}
+body.v1_theme p {
+     font-size: 1.7rem;  line-height: 165%;
+  }
+
+.feature{
+margin-bottom: 6px;
+}
 
   .page-style .numberlist{
     margin: 0;
@@ -3569,8 +3803,8 @@ html[lang="en"] table.custom img{
 
 @media screen and (max-width: 480px){
   .boxify-container .boxify-item{
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
+    margin-bottom: 30px;
   }
 
   .footerNav .col-md-3{
@@ -3580,6 +3814,12 @@ html[lang="en"] table.custom img{
   .form-control.form-control-sm.form-control-inline, .form-control-inline{
     margin-bottom: 10px;
   }
+   div.Journal h5{
+      line-height: 29px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-style:italic;
+    }
 }
 
 .amazon-wishlist-block{
@@ -3591,12 +3831,4 @@ html[lang="en"] table.custom img{
   div[ng-controller=ProductsShowController] .col-md-6:nth-child(2) div.Wishlist-addItem-block{
     width: 100%;
   }
-}
-
-#memberWrap{
-  margin-top: -150px;
-  padding-top: 150px;
-  padding-bottom: 150px;
-  background: url(https://www.nude-underwear.com/2018/member_bg.jpg) fixed;
-  background-position: top center;
 }

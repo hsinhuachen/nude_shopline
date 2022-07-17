@@ -461,7 +461,7 @@ div.shopline-product-review-container{
   .blog-post h1{
     letter-spacing:0;
   }
-  .body-content p{
+  .body-content  .blog-post p{
       text-align: justify;
   }
 
@@ -1948,7 +1948,7 @@ html[lang="en"] .selectItem{
 }
 
 .resultItem .img{
-  margin-bottom: 13px;
+  margin-bottom: 30px;
   display: block;
 }
 

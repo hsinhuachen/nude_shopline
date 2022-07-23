@@ -593,6 +593,10 @@ h2.sectionTitle.descH2, .pageTitle.descH2{
   margin-bottom: -40px;
 }
 
+h2.sectionTitle.cateTitle{
+  padding: 20px 0 40px 0;
+}
+
 .large-message h2.global-primary{
     font-family:"Helvetica Neue", Helvetica, "Lantinghei SC Extralight", "Microsoft JhengHei", "Lucida Grande", 微軟正黑體, Verdana, Arial, sans-serif;
     color: #333333;
@@ -1145,7 +1149,7 @@ html[lang="en"] .mask{
   display: block;
 }
 
-.category{
+.`gory{
   font-family: 'Cormorant Garamond', serif;
   color: #333333;
   font-size: 2.5rem;

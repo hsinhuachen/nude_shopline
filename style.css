@@ -2979,6 +2979,10 @@ html[lang="en"] table.custom img{
   }
 }
 
+.variation-detail{
+  padding-top: 10px;
+}
+
 .variation-detail .ng-scope .variation_title{
   padding-bottom: 5px;
 }
@@ -3091,7 +3095,8 @@ html[lang="en"] table.custom img{
 
   .variation-detail .ng-scope{
     width: 50%;
-    display: inline-block;
+    padding-right: 6px;
+    display: block;
   }
 
   .variation-detail .form-control-inline{
@@ -3831,4 +3836,8 @@ margin-bottom: 6px;
   div[ng-controller=ProductsShowController] .col-md-6:nth-child(2) div.Wishlist-addItem-block{
     width: 100%;
   }
+}
+
+.Variation-container{
+  display: flex;
 }

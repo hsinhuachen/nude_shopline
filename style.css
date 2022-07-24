@@ -454,8 +454,14 @@ div.shopline-product-review-container{
 }
 
   .blog-post{
+    position: relative;
     margin: 80px auto;
     max-width: 900px;
+  }
+
+  .blog-post .backBtn{
+    top: 0;
+    left: 10px;
   }
 
   .blog-post h1{
@@ -596,6 +602,13 @@ h2.sectionTitle.descH2, .pageTitle.descH2{
 h2.sectionTitle.cateTitle{
   padding: 20px 0 40px 0;
 }
+
+@media (max-width: 640px){
+  h2.sectionTitle.cateTitle{
+    padding: 0px 0 40px 0;
+  }
+}
+
 
 .large-message h2.global-primary{
     font-family:"Helvetica Neue", Helvetica, "Lantinghei SC Extralight", "Microsoft JhengHei", "Lucida Grande", 微軟正黑體, Verdana, Arial, sans-serif;
@@ -1479,6 +1492,14 @@ div[ng-controller=ProductsShowController] .title{
   padding-left: 0;
   padding-right: 0;
 }
+
+@media (max-width: 640px){
+  .grid-products-item{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
 .yield-wrapper .container .description .zIndex2{ 
     margin-top:120px;
   }
@@ -3844,4 +3865,8 @@ margin-bottom: 6px;
 
 .Variation-container{
   display: flex;
+}
+
+.category-advance-filter.mobile-category-filter{
+  display: none !important;
 }

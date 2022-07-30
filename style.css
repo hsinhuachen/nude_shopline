@@ -188,7 +188,7 @@ div[ng-controller=MessageFormController] *{
   font-family: 'Julius Sans One', sans-serif;
   color: #333333;
   font-size: 4.1rem;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   line-height: 58px;
   display:inline-block;
   -webkit-transition: all 0.6s ease;
@@ -449,6 +449,9 @@ div.shopline-product-review-container{
   .sold-out-item-content, .available-time-content {
     border-radius: 0;
   }
+  .sold-out-item-content .sold-out-item, .available-time-content .available-time-item{
+    font-size: 14px;
+  }
 .member-price-tag, .product-customized-labels{border-radius: 0;}
 .panel-heading{text-align: center;
 }
@@ -474,8 +477,9 @@ div.shopline-product-review-container{
  .blog-post  blockquote{  
     padding: 0 20px 0 20px;
   }
- .body-content blockquote p {  
+ .body-content .blog-post  blockquote p {  
     text-align: left;
+    letter-spacing: 1px;
   }
   .blog-post .post-date{
     padding-bottom: 16px;
@@ -915,7 +919,7 @@ a.footerNavLink:hover{
 }
 
 .footerNav{
-  max-width: 504px;
+  max-width: 880px;
   margin: 0 auto;
   padding: 0;
   list-style: none;
@@ -2550,7 +2554,7 @@ html[lang="en"] .btn-color-primary{
 }
 
 html[lang="en"] .footerNav{
-  max-width: 630px;
+  /*max-width: 630px;*/
 }
 
 html[lang="en"] .footerNav a{
@@ -2768,6 +2772,9 @@ html[lang="en"] table.custom img{
   .product-info .col-md-6 .visible-lg{
     display: none !important;
   }
+ .footerNav .col-md-3 {
+    width: 20%;
+  }
 
   .add-to-cart .hidden-lg{
     display: block !important;
@@ -2782,7 +2789,7 @@ html[lang="en"] table.custom img{
       padding: 0;
       margin: 0;
   }
-
+  
   .body-wrapper .yield-wrapper .related-products .product-item{
     width: 25%;
   }
@@ -2790,6 +2797,10 @@ html[lang="en"] table.custom img{
   .signin-signup-button .fa, .cart-panel-button .fa,
   .message-button .fa, .fa-globe, .member-myaccount-button .fa{
     display: none;
+  }
+  
+ .footerNav .col-md-3 {
+    width: 20%;
   }
 }
 
@@ -2936,7 +2947,7 @@ html[lang="en"] table.custom img{
 
   .footerNav .col-md-3  {
     font-size: 1.9rem;
-    width: 25%;
+    width: 20%;
   }
 
   .footerNav .col-md-3, #footer .social li{
@@ -3119,9 +3130,9 @@ html[lang="en"] table.custom img{
   }
 
   .variation-detail .ng-scope{
-    width: 50%;
-    padding-right: 6px;
-    display: block;
+    padding-right: 0px;
+    margin-bottom: 0;
+   /* display: inline-block;  width: 50%;*/
   }
 
   .variation-detail .form-control-inline{
@@ -3129,7 +3140,8 @@ html[lang="en"] table.custom img{
   }
 
   div[ng-controller=ProductsShowController] .col-md-6:nth-child(2) div.ng-scope:nth-child(1){
-    padding-right: 6px;
+    padding-right: 0px;
+     /*padding-right: 6px;*/
   }
 
   .variant-image{
@@ -3138,7 +3150,7 @@ html[lang="en"] table.custom img{
   }
 
   .form-inline, #btn-main-checkout{
-    width: 50%;
+    /*width: 50%;*/
     float: left;
     padding-right: 6px;
     margin: 0;

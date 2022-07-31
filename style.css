@@ -279,11 +279,10 @@ div[ng-controller=MessageFormController] *{
 
 .navbar-header-wrapper{
   position: fixed;
-  left: 0;
-  right: 0;
+  left: calc((100vw - 190px) / 2);
   top: 0;
   z-index: 800;
-  width: 100%;
+  width: 190px;
   height: 102px;
   margin: 0;
 }
@@ -303,6 +302,7 @@ div[ng-controller=MessageFormController] *{
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  padding: 0;
 }
 
 .navbar-header a{
@@ -1099,7 +1099,43 @@ a.footerNavLink:hover{
 }
 
 .navbar-menu-wrapper{
+  position: relative;
+  top: 100px;
+  z-index: 60;
   display: none;
+}
+
+.navbar-menu>ul>li{
+  margin: 0;
+}
+
+.navbar-menu>ul>li>a{
+  font-size: 14px;
+}
+
+@media screen and (min-width: 960px){
+  .navbar{
+    width: 100% !important;
+    padding: 0 50px;
+  }
+
+  .navbar-menu li[link-highlight="/about"],
+  .navbar-menu li[link-highlight="/pages/size"],
+  .navbar-menu li[link-highlight="/blog"]{
+    display: none;
+  }
+}
+
+.navbar-menu-wrapper .container{
+  width: 100%;
+  padding: 0;
+}
+
+.navbar-menu{
+  border: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
 }
 
 #productNav{
